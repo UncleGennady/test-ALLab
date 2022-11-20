@@ -1,0 +1,60 @@
+
+.job-item{
+    padding: 24px 16px;
+    background-color: white;
+}
+
+.icon{
+    min-width: 85px;
+    max-width: 85px;
+    height: 85px;
+
+
+}
+.info{
+    width: 75%;
+}
+.link{
+    transition: .3s;
+}
+.link:hover{
+    color:cornflowerblue;
+}
+.icon img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.rating{
+    max-width: 40%;
+}
+.bookmark{
+    width: 16px;
+    height: 20px;
+}
+.content{
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    .job-item{
+        padding: 13px 16px 27px 13px;
+        background-color: #EFF0F5;
+    }
+    .info{
+        max-width: 100%;
+    }
+    .icon{
+        min-width: 66px;
+        max-width: 66px;
+        height: 66px;
+        margin-top: 45px;
+    }
+    .job-stats{
+        margin-bottom: 15px;
+    }
+    .rating{
+        width: 54px;
+    }
+
+}
